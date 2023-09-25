@@ -1,0 +1,28 @@
+const components = [
+  { url: "/#initial-color", group: "Design Tokens", pattern: "Initial Color"},
+  { url: "/#brand-color", group: "Design Tokens", pattern: "Brand Color"},
+  { url: "/#functional-color", group: "Design Tokens", pattern: "Functional Color"},
+  { url: "/#neutral-color", group: "Design Tokens", pattern: "Neutral Color"},
+  { url: "/#background-color", group: "Design Tokens", pattern: "Background Color"},
+  { url: "/#text-color", group: "Design Tokens", pattern: "Text Color"},
+  { url: "/#border-color", group: "Design Tokens", pattern: "Border Color"},
+  { url: "/#fonts", group: "Design Tokens", pattern: "Font"},
+  { url: "/#font-weights", group: "Design Tokens", pattern: "Font Weights"},
+  { url: "/#font-sizes", group: "Design Tokens", pattern: "Font Sizes"},
+  { url: "/#opacity", group: "Design Tokens", pattern: "Opacity"},
+  { url: "/#line-height", group: "Design Tokens", pattern: "Line Height"},
+  { url: "/#spacing", group: "Design Tokens", pattern: "Spacing"},
+  { url: "/#radius", group: "Design Tokens", pattern: "Radius"},
+  { url: "/#/components/ui/headings", group: "UI Elements", pattern: "Headings"},
+  { url: "/#/components/ui/paragraphs", group: "UI Elements", pattern: "Paragraphs"},
+  { url: "/#/components/ui/lists", group: "UI Elements", pattern: "Lists"},
+  { url: "/#/components/ui/inline", group: "UI Elements", pattern: "Inline Elements"},
+  { url: "/#/components/forms", group: "Forms", pattern: "Sample Form"},
+  { url: "/#/components/forms", group: "Forms", pattern: "Input Elements"},
+  { url: "/#/components/forms", group: "Forms", pattern: "Select Elements"},
+  { url: "/#/components/forms", group: "Forms", pattern: "Checkboxes"},
+  { url: "/#/components/forms", group: "Forms", pattern: "Text Areas"},
+  { url: "/#/components/forms", group: "Forms", pattern: "Buttons"},
+];
+
+export default components;

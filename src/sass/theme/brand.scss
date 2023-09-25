@@ -1,0 +1,51 @@
+// @import "../../node_modules/bulma/sass/utilities/initial-variables";
+// @import "../../node_modules/bulma/sass/utilities/functions";
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+// yarn add @fontsource/material-icons-sharp
+// yarn add @fontsource/montserrat
+// yarn add @fontsource/open-sans
+@import "../../node_modules/@fontsource/montserrat/500.css";
+@import "../../node_modules/@fontsource/montserrat/600.css";
+@import "../../node_modules/@fontsource/open-sans/400.css";
+@import "../../node_modules/@fontsource/open-sans/600.css";
+
+// 1. Set your brand colors
+$gc-primary: #f79420;
+$gc-secondary: #58d0f2;
+$gc-link: #01a6ef;
+$gc-link-hover: #ffba19;
+
+// Update Bulma's initial variables
+$family-sans-serif: "Open Sans", sans-serif;
+$text: $grey;
+
+// Brand Colors: [Primary, Secondary]
+$primary: $gc-primary;
+$secondary: $gc-secondary;
+
+// Functional Colors: [Link, Info, Success, Warning, Danger]
+$link: $gc-link;
+$info: $blue;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+
+// Neutral Colors: [Dark, Light]
+$dark: $grey-dark;
+$light: $grey-light;
+// Grey [Dark, Light]
+$grey-dark: $grey-dark;
+$grey-light: $grey-light;
+
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $white-ter;
+$control-border-width: 1px;
+$input-border-color: $grey-light;
+$input-shadow: none;

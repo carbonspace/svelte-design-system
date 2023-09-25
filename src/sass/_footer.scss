@@ -1,0 +1,18 @@
+footer.footer {
+  border-top: 1px solid $base-color-light;
+  border-bottom: 1px solid $base-color-light;
+}
+footer.footer {
+  .logo {
+    img {
+      width: auto;
+      height: $footer-logo-height;
+    }
+  }
+}
+
+@include mobile {
+  .footer-copyright {
+    text-align: center;
+  }
+}
